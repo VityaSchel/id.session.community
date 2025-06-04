@@ -39,6 +39,8 @@ c22.06,12.22,35.95,35.25,36.54,60.39C282.87,285.73,252.56,315.28,216.46,315.28z"
   <a
     href="https://getsession.org/download"
     class="mt-2 rounded-full focus:outline-none focus-visible:outline-none"
+    target="_blank"
+    rel="noopener noreferrer nofollow"
   >
     <Button tabindex={-1}>Download</Button>
   </a>
