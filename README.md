@@ -1,38 +1,11 @@
-# sv
+# [id.session.community](https://id.session.community)
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Create a free online link to your Session ID (Account ID in Session). Input your Session ID and get a link available in web to share with anyone. The page has instructions on how to install Session and start conversation with you. Deeplinks are to be added.
 
-## Creating a project
+![Light theme screenshot 1](docs/light-1.webp#gh-light-mode-only)
+![Light theme screenshot 2](docs/light-2.webp#gh-light-mode-only)
 
-If you're seeing this, you've probably already done this step. Congrats!
+![Dark theme screenshot 1](docs/dark-1.webp#gh-dark-mode-only)
+![Dark theme screenshot 1](docs/dark-2.webp#gh-dark-mode-only)
 
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Made with SvelteKit and TailwindCSS
