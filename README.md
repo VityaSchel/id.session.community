@@ -9,3 +9,7 @@ Create a free online link to your Session ID (Account ID in Session). Input your
 ![Dark theme screenshot 1](docs/dark-2.webp#gh-dark-mode-only)
 
 Made with SvelteKit and TailwindCSS
+
+## License
+
+[MIT](./LICENSE)

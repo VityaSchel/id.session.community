@@ -62,7 +62,7 @@
         <CopyUrlHint />
       {/if}
       {#if valueType !== null}
-        <h1 class="mb-8 text-center text-3xl font-medium sm:text-4xl break-all">
+        <h1 class="mb-8 text-center text-3xl font-medium break-all sm:text-4xl">
           Chat with <span class="text-[#00A85A] dark:text-[#00f782]">
             {#if valueType === 'sessionId'}
               {value.substring(0, 4)}...{value.slice(-4)}
@@ -135,6 +135,10 @@
       <span>
         author of the website is not responsible or liable for the content shared in Session
       </span>
+      ·
+      <a href="https://github.com/VityaSchel/id.session.community" class="font-medium">
+        This website is open source
+      </a>
     </footer>
   </main>
 {/if}
